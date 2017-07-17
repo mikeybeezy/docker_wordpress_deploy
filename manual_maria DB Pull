@@ -1,0 +1,2 @@
+# Manual DOCKER Maria DB Pull
+docker run --name enterdbname -e MYSQL_ROOT_PASSWORD=mikeybabs -d -p 8081:3306 mariadb:10.3.0
